@@ -98,4 +98,4 @@ AC_OUTPUT(Makefile src/Makefile src/common/Makefile src/data/Makefile \
 	src/utils/I1_Freq/Makefile src/utils/Makefile src/utils/Python/Makefile src/utils/R2_calc/Makefile \
 	src/utils/R_iCalc/Makefile src/utils/contactRate/Makefile src/utils/contactSim/Makefile \
 	src/utils/contactTest/Makefile src/utils/occultFreq/Makefile src/utils/prCalc/Makefile \
-	src/utils/sellkefit/Makefile src/sim/Makefile src/sim/gillespie/Makefile)
+	src/sim/Makefile src/sim/gillespie/Makefile)
