@@ -2,7 +2,7 @@ INCLUDES = -I$(top_srcdir)/src/data -I$(top_srcdir)/src/common
 METASOURCES = AUTO
 bin_PROGRAMS = sellkeSim simContacts simCTEpidemic
 
-noinst_HEADERS = aiModel.hpp Model.hpp AIPopulation.hpp Population.hpp Parameter.hpp EventQueue.hpp EventParser.hpp SimOnContact.cpp
+noinst_HEADERS = aiModel.hpp Model.hpp AIPopulation.hpp Population.hpp Parameter.hpp EventQueue.hpp EventParser.hpp SimOnContact.cpp Individual.hpp
 
 sellkeSim_SOURCES = main.cpp AIPopulation.cpp aiModel.cpp Individual.cpp
 sellkeSim_LDADD = $(top_builddir)/src/data/libepiData.la -lgsl -lgslcblas
