@@ -1,0 +1,18 @@
+#!/bin/bash -f
+
+SIMMANGLE="/storage/users/jewellc/MCMC/trunk/Utilities/simMangle.py"
+
+awk '
+
+BEGIN  {
+  FS=".";
+  print "Converting files...";
+}
+{
+  system("'$SIMMANGLE' " $0 " " $1"."$2"."$3"."$4".ipt");
+}
+END {
+print "Done";
+}
+
+'

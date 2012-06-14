@@ -1,0 +1,8 @@
+AI Contact Tracing code
+=======================
+
+This code implements epidemic risk prediction with contact tracing data, as described in Jewell CP, Roberts GO (2012) "Enhancing Bayesian risk prediction for epidemics using contact tracing" Biostatistics doi::10.1093/biostatistics/kxs012.
+
+This source code is distributed under the GPLv3, preserving the open source nature of academic research.  Consequently, it is distributed WITHOUT WARRANTY.
+
+It is the authors' intention that this code might act as a platform for future development of epidemic risk prediction algorithms, so you are warmly invited to get in touch if you would like to add to the project!

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiGillespieSim>
+	<paths>
+		<dataprefix>/path/to/some/data</dataprefix>
+		<epidata>/path/to/epidata/file.ipt</epidata>
+		<dcdata>/path/to/dc/data.dc</dcdata>
+		<outputprefix>/path/of/output/prefix</outputprefix>
+	</paths>
+
+	<options>
+		<I1>-1</I1>
+		<reps>1</reps>
+		<contacttracing>true</contacttracing>
+		<mintime>0</mintime>
+		<maxtime>5000</maxtime>
+	</options>
+	
+	<constants>
+		<mu></mu>
+		<nu></nu>
+		<a></a>
+		<b></b>
+		<c></c>	
+		<ctwindowsize>21.0</ctwindowsize>
+	</constants>
+	
+	<parameters>
+		<epsilon>1e-6</epsilon>
+		<p1>0.8</p1>
+		<p2>0.6</p2>
+		<beta1>0.008</beta1>
+		<beta2>0.018</beta2>
+		<beta3>0.0074</beta3>
+		<psi>0.2</psi>
+		<eta2>0.6</eta2>
+		<eta3>0.3</eta3>
+		<eta4>0.3</eta4>
+		<eta5>0.3</eta5>
+		<eta6>0.3</eta6>
+		<eta7>0.3</eta7>
+		<eta8>0.3</eta8>
+		<eta9>0.3</eta9>
+		<eta10>0.3</eta10>
+	</parameters>
+
+</aiGillespieSim>

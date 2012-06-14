@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE tracedcontacts PUBLIC "contact-tracing-20070509.dtd" "http://www.maths.lancs.ac.uk/~jewellc/files/contact-tracing-20070509.dtd">
+<epirisk>
+  <parameter id="beta0"/>
+
+
+  <parameter id="beta1"/>
+
+
+  <parameter id="beta2"/>
+</epirisk>
+
